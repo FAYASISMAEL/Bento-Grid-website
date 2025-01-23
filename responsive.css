@@ -1,0 +1,133 @@
+@media (max-width: 400px) {
+
+   /* Navbar Styles */
+
+    nav {
+        height: 6.5vh;
+    }
+
+    .navicon {
+        display: block;
+    }
+
+    .respnavbar {
+        display: block;
+    }
+
+    .responsivediv {
+        display: flex;
+        position: absolute;
+        top: 25%;
+        right: 3%;
+    }
+
+    .navlinks {
+        display: block;
+    }
+
+    .navlink {
+        display: none;
+    }
+
+    /* The info box below the Navbar */
+
+    .infobartext {
+        flex-direction: column;
+    }
+
+    /* Main page - 1 -> iPhone 14 Pro */
+
+    .mainpage1 {
+        background-image: url("https://www.apple.com/in/home/heroes/iphone-16-pro/images/hero_iphone16pro_avail__fnf0f9x70jiy_small_2x.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .mp1-title1 {
+        font-size: 32px;
+    }
+
+    .mp1-title2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .mainpagelink1 {
+        font-size: 16px;
+        margin-top: 330px;
+    }
+    
+
+    /* Main page - 2 -> iPhone 14 */
+
+    .mainpage2 {
+        background-image: url("https://www.apple.com/in/home/heroes/iphone-16/images/hero_iphone16_avail__euwzls69btea_small_2x.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .mainpagelink2 {
+        font-size: 16px;
+        margin-top: 330px;
+    }
+
+    /* Main page - 3 -> Apple watch */
+
+    .mainpage3 {
+        background-image: url("https://www.apple.com/v/home/bx/images/heroes/macbook-air-m3/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    /* Main page - 4 -> grid items */
+
+    .grid-item {
+        flex-basis: 100%;
+        margin: 0px;
+    }
+
+    .promo1 {
+        background-image: url("https://www.apple.com/v/ipad-pro/ar/images/overview/hero/hero_endframe__sg50vzdd6sqm_small_2x.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .promo2 {
+        background-image: url("https://www.apple.com/v/home/bx/images/promos/macbook-pro/promo_macbookpro_announce__gdf98j6tj2ie_small_2x.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .promo3 {
+        background-image: url("https://www.apple.com/in/home/promos/apple-store-app/images/promo_apple-app-atore__e43jegok3wuq_small.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .promo4 {
+        background-image: url("https://www.apple.com/v/home/bx/images/promos/ipad-air/promo_ipadair_ai__3fv1eitzqv6y_small.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .promo5 {
+        background-image: url("https://www.apple.com/v/home/bx/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail__b9etp10v9tn6_small.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .promo6 {
+        background-image: url("https://www.apple.com/v/home/bx/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_small.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+    }
+}
